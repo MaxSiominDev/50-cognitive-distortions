@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">50 когнитивных искажений</string>
+
+    <string name="cognitive_distortions">Когнитивные искажения</string>
+
+    <string name="enable_notifications">Включить уведомления</string>
+    <string name="disable_notifications">Выключить уведомления</string>
+
+    <string name="notifications_enabled">Уведомления включены</string>
+    <string name="notifications_disabled">Уведомления выключены</string>
+
+    <string name="ok">ОК</string>
+
+    <string name="info_text">Это приложение поможет запомнить 50 контивных искажений. Оно будет присылать по одному искажению с примером каждое утро, день и вечер. Знание когнитивных искажений помогает победить привычку думать стереотипами, не дрпускать ошибок в анализе, тренирует наблюдение за процессом своего мышления, учит выявлять политиеские, маркетинговые и другие виды манипуляций.</string>
+
+    <string name="info">О приложении</string>
+    <string name="about_me">О разработчике</string>
+    <string name="no_distortions_yet">Вам ещё не доступно ни одно когнитивное искажение</string>
+    <string name="new_distortion">Новое когнитивное искажение</string>
+    <string name="smth_went_wrong">Что-то пошло не так</string>
+
+    <string name="channel_name" translatable="false">distortion_channel</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="dev.maxsiomin.fiftycognitivedistortions.fragments.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_distortionsFragment"
+            app:destination="@id/distortionsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_distortionFragment"
+            app:destination="@id/distortionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="dev.maxsiomin.fiftycognitivedistortions.fragments.info.InfoFragment"
+        android:label="FragmentInfo" />
+    <fragment
+        android:id="@+id/distortionsFragment"
+        android:name="dev.maxsiomin.fiftycognitivedistortions.fragments.distortions.DistortionsFragment"
+        android:label="fragment_distortions_list"
+        tools:layout="@layout/fragment_distortions_list" >
+        <action
+            android:id="@+id/action_distortionsFragment_to_distortionFragment"
+            app:destination="@id/distortionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/distortionFragment"
+        android:name="dev.maxsiomin.fiftycognitivedistortions.fragments.distortion.DistortionFragment"
+        android:label="DistortionFragment" >
+        <argument
+            android:name="distortion_name"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
