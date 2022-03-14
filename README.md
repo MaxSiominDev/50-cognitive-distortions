@@ -2,10 +2,10 @@
 Включите уведомления и просматривайте по 3 картинки в день, чтобы не попадаться на маркетинговые и другие уловки
 ## Установка/Installation
 
-* Скачайте/download [apk](https://maxsiomin.dev/libpass)
+* Скачайте/download [apk](https://maxsiomin.dev/cognitive)
 * Clone the repo using git:
 ```bash
-git clone https://github.com/MaxSiominDev/LibPass.git
+git clone https://github.com/MaxSiominDev/50-cognitive-distortions.git
 ```
 ## Требования/Requirements
 
